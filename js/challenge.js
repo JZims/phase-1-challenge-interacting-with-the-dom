@@ -36,12 +36,10 @@ function addLike(){
     if (oldCounter != counter.innerText) {
         likeCountTracker = 1
         renderLikes(likeCountTracker)
-        console.log("sup")
         console.log(oldCounter)
     } else if (oldCounter == counter.innerText) {
         likeCountTracker += 1
         renderLikes(likeCountTracker)
-        console.log("hey")
         console.log(oldCounter)
     }
     
